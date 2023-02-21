@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(UST.jpg);
+    background-size: cover;
+}
+
+
+
+.h1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+form{
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+
+}
+
+
+:focus{
+
+    outline: none;
+
+}
+
+.F{
+    color: #fff;
+     font-size: 20px;
+    
+}
+
+.lo{
+    width: 600px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+
+
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+
+
+.btn:hover{
+    border: #ef233cff;
+    background: #ef233cff;
+    transition: 1s;
+}
+
+@media(max-width: 700px){
+    .lo{
+        width: 350px;
+        
+    }   
+    form{
+        width: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

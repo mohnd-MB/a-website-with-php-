@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(photos/ust.jpg);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+}
+.logo{
+    opacity: 0.5;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(29, 7, 7);
+    text-decoration: none;
+    font-size: 20px;
+    font-style:oblique;
+    
+}
+
+
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ef233cff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+.text-box{
+    width: 90%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+    opacity: 0.6;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.btn:hover{
+    border: #ef233cff;
+    background: #ef233cff;
+    transition: 1s;
+}
+.nav-links img{
+    display: none;
+}
+.menu{
+    display: none;
+}
+
+
+/*------faculties--------*/
+
+.faculties{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color:#777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.med{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30%;
+    position: relative;
+    overflow: hidden;
+}
+.med img{
+    width: 100%;
+    display: block;
+    
+}
+.layer{
+    background: transparent;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+
+}
+.layer:hover{
+    background: #ef233cff;
+    
+
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color:#fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+.bm{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30%;
+    position: relative;
+    overflow: hidden;
+}
+.bm img{
+    width: 100%;
+    display: block;
+    
+}
+.eng{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30%;
+    position: relative;
+    overflow: hidden;
+}
+.eng img{
+    width: 100%;
+    display: block;
+    
+}
+/*------Diplomas--------*/
+
+.diploma{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+.dip{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.dip img {
+    width: 100%;
+    border-radius: 10px;
+}
+.dip p{
+    padding: 0;
+}
+.dip h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left
+}
+.about-us{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.about-us h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.icons img{
+    width: 5%;
+    
+}
+.back{
+    width: 7.5%;
+
+}
+.feedback{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+form{
+    margin: 50px
+}
+
+.form-control{
+    width: 600px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+.submit{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.submit:hover{
+    border: #ef233cff;
+    background: #ef233cff;
+    transition: 1s;
+}
+@media(max-width: 700px){
+        .text-box h1{
+        font-size: 60px;
+        opacity: 0.6;}
+        .nav-links ul li{
+            display: block;
+        }
+        .nav-links ul li::after{
+            background: black;
+        }
+        .nav-links{
+            position: absolute;
+            background: #ef233cff;
+            height: 100vh;
+            width: 200px;
+            top: 0;
+            right: -200px;
+            text-align: left;
+            z-index: 2;
+            transition: 1s;
+    
+        }
+        .menu{
+            display: block;
+            width: 50px;
+        }
+        .nav-links img{
+            display: block;
+            width: 22px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .nav-links ul{
+            padding: 30px;
+        }
+        .row1{
+            display: block;}
+        .form-control{
+        width: 350px;
+        }   
+    }

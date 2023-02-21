@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*{
+   color: #2b2d42ff;
+   color: #8d99aeff;
+   color: #edf2f4ff;
+   color: #ef233cff;
+   color: #d90429ff;
+}*/
+.head {
+    background-image: url(xd.jpg);
+
+    text-align: center;
+
+    padding: 100px;
+    box-shadow: 2px 2px 4px #000000;
+
+    background-attachment: fixed;
+}
+
+.t1 {
+    text-shadow: 0.2px 0.2px #000000;
+    font-size: xx-large;
+    color: #edf2f4ff;
+    font-weight: bolder;
+}
+
+
+.css-grid {
+    display: grid;
+    grid-template-areas:
+        "b1 b1 b1 b1"
+        "b2 b2 b2 b2"
+        "b3 b3 b3 b3"
+        "b4 b4 b4 b4";
+    gap: 25px;
+}
+
+.box1 {
+    grid-area: b1;
+
+    background-color: #2b2d42ff;
+
+}
+
+.hd {
+    border: none;
+    width: 220px;
+    height: 30px;
+    background-color: #2b2d42ff;
+    transition: 0.5s ease;
+}
+
+.hd:hover {
+    background-color: rgb(255, 255, 255);
+    color: #2b2d42ff;
+    transition: 0.5s ease;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.5 ease;
+    padding: 40px;
+
+    border: none;
+    font-size: medium;
+    font-weight: bolder;
+}
+a:hover {
+    color: #2b2d42ff;
+    text-decoration: none;
+    transition: 2.5 ease;
+}
+.box2 {
+    grid-area: b2;
+}
+.bt{
+    
+    padding: 150px 280px;
+    border: none;
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+
+}
+.man{
+    background: blue;
+    transition: 0.5s ease;
+}
+.man:hover{
+    transition: 0.5s ease;
+    background: white;
+    color: blue;
+    border: none;
+
+}
+.women{
+    background-color: pink;
+    transition: 0.5s ease;
+}
+.women:hover{
+    background-color: white;
+    transition: 0.5s ease;
+    color: pink;
+    border: none;
+
+}
+
+
+.box3 {
+    grid-area: b3;
+    background-color: rgb(89, 109, 109);
+}
+
+.box4 {
+    grid-area: b4;
+}
+
+textarea {
+    width: 75%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 02px solid rgba(17, 17, 17, 0.24);
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 16px;
+    resize: none;
+}
+
+
+.footer {
+    color: white;
+    background-color: #000000;
+}
